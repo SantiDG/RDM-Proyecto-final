@@ -1,0 +1,24 @@
+
+.all-but-header {
+    position: relative;
+    top: 80px;
+}
+
+.banner-container {
+    position: relative;
+    text-align: center;
+    color: $blanco-rdm;
+
+    .frase-banner {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        @include trans-late(-50%, -50%);
+
+        @include oswald-font (700, 4rem);
+    }
+
+    .imagen-banner {
+        max-width: 100%;
+    }
+}

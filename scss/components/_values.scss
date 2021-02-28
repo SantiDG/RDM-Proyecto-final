@@ -1,0 +1,48 @@
+
+/*Valores*/
+
+.valores-container {
+    display: lock;
+
+    .titulo-valores {
+        display: flex;
+        justify-content: center;
+        padding: 1.5rem 0 0 0 ;
+        margin: 0;
+
+        @include oswald-font (400, 2rem);
+        color: $blanco-rdm;
+        background-color: $negro-rdm;
+    }
+
+    .valores {
+        display: flex;
+        padding: 2rem 0;
+        background-color: $negro-rdm;
+
+        .valor {
+            width: 30%;
+            background-color: $rojo-rdm;
+            border-radius: 2rem;
+            padding: 1rem;
+            margin: 0 3rem;
+            text-align: center;
+
+            .img-valor {
+                padding: 0.3rem 0;
+            }
+
+            .titulo-valor {
+                padding: 0.5rem 0;
+                color: $blanco-rdm;
+                @include oswald-font (300, 1.5rem);
+                color: $blanco-rdm;
+            }
+
+            .desc-valor {
+                @include opensans-font (400, 0.8rem);
+                color: $blanco-rdm;
+            }
+        }
+    }
+}

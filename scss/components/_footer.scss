@@ -1,0 +1,46 @@
+
+
+.footer-container {
+    display: flex;
+    background-color:$negro-rdm ;
+
+    .noticias-container {
+        width: 50%;
+
+        .noticias-titulo {
+            padding: 0 0 0 1.5rem;
+            margin: 1.5rem 0;
+
+            .h3-noticias {
+                @include oswald-font (300, 2rem);
+                color: $blanco-rdm;
+            }
+        }
+
+        .noticias-form {
+            padding:0 0 0 1.2rem;
+            
+            .noticias-input {
+                width: 70%;
+            }
+        }
+
+        .noticias-parrafo {
+            color: $blanco-rdm;
+            padding-left: 1.5rem ;
+            margin: 2rem 0;
+            width: 70%;
+        }
+    }
+
+    .iso-container {
+        text-align: right;
+        width: 50%;
+
+        .iso {
+            max-width: 8rem;
+            margin: 3rem;
+
+        }
+    }
+}

@@ -1,0 +1,39 @@
+
+.nosotros-container {
+    display: flex;
+
+    .img-container {
+        display: flex;
+
+        .imagen-grupo {
+            max-width: 100%;
+            
+        }
+    }
+
+    .text-container {
+        text-align: center;
+        background-color: $blanco-rdm;
+
+        .nosotros-text {
+            padding: 10% ;
+
+            .h3-nosotros {
+                @include oswald-font (500, 2rem);
+                color: $negro-rdm;
+            }
+
+            .h5-nosotros {
+                padding: 2rem 0 0 0 ;
+                @include oswald-font (400, 1.3rem);
+                color: $negro-rdm;
+            }
+
+            .p-nosotros {
+                @include opensans-font (400, 1rem);
+                color: $negro-rdm;
+            }
+        }
+    }
+}
+
