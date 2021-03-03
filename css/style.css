@@ -134,6 +134,87 @@ header {
   max-width: 100%;
 }
 
+.productos-h2-c {
+  display: block;
+  text-align: center;
+}
+.productos-h2-c .productos-h2 {
+  padding: 3rem 0;
+  margin: 0;
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  font-size: 3rem;
+  color: #221F1C;
+  background-color: #F2F2F2;
+}
+
+.multi-titulo-c {
+  display: block;
+  text-align: center;
+}
+.multi-titulo-c .multi-titulo {
+  padding: 1.5rem 0;
+  margin: 0;
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  font-size: 2.5rem;
+  color: #F2F2F2;
+  background-color: #701F21;
+}
+
+.multi-container {
+  display: flex;
+}
+.multi-container .variante-container {
+  display: flex;
+  flex-direction: column;
+  padding: 3rem 0 2rem 0;
+}
+.multi-container .variante-container .variante-titulo {
+  margin: 2rem 0;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-family: "Oswald", sans-serif;
+  font-weight: 300;
+  font-size: 2.2rem;
+}
+.multi-container .variante-container .h4-1 {
+  color: #F2F2F2;
+}
+.multi-container .variante-container .h4-2 {
+  color: #221F1C;
+}
+.multi-container .variante-container .img-container .img-variante {
+  max-width: 100%;
+  padding: 0 3rem;
+}
+.multi-container .variante-container .variante-desc {
+  display: flex;
+  padding: 0 5rem;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-size: 1rem;
+}
+.multi-container .variante-container .texto-desc-1 {
+  color: #221F1C;
+  text-align: left;
+}
+.multi-container .variante-container .texto-desc-2 {
+  color: #F2F2F2;
+  text-align: right;
+}
+.multi-container .variante-1 {
+  background-image: url(../Images/Productos/fitz-roy-final.png);
+  background-color: #221F1C;
+  background-size: cover;
+}
+.multi-container .variante-2 {
+  background-image: url(../Images/Productos/siete-lagos-final.png);
+  background-color: #F2F2F2;
+  background-size: cover;
+}
+
 /*Valores*/
 .valores-container {
   display: lock;
@@ -141,7 +222,7 @@ header {
 .valores-container .titulo-valores {
   display: flex;
   justify-content: center;
-  padding: 1.5rem 0 0 0;
+  padding: 6rem 0 0 0;
   margin: 0;
   font-family: "Oswald", sans-serif;
   font-weight: 400;
@@ -151,7 +232,7 @@ header {
 }
 .valores-container .valores {
   display: flex;
-  padding: 2rem 0;
+  padding: 4rem 0 6rem 0;
   background-color: #221F1C;
 }
 .valores-container .valores .valor {
@@ -190,6 +271,8 @@ header {
   max-width: 100%;
 }
 .nosotros-container .text-container {
+  display: flex;
+  align-items: center;
   text-align: center;
   background-color: #F2F2F2;
 }
@@ -218,22 +301,38 @@ header {
 
 .contacto-container {
   display: block;
-  text-align: center;
   padding: 4rem 0;
-  background-image: url(../../Images/Footer/fitz-roy.jpg);
-  /*No pude lograr que se muestre la imagen de fondo*/
-  background-color: slategray;
+  background-image: url(../Images/Productos/Tierra-del-fuego.png);
+  background-size: 100%;
+  background-position: top;
+  background-color: #221F1C;
 }
 .contacto-container .titulo-contacto {
   padding: 0 0 2rem 0;
+  text-align: center;
+}
+.contacto-container .titulo-contacto .contacto-h3 {
   font-family: "Oswald", sans-serif;
-  font-weight: 300;
-  font-size: 10rem;
-  /*Tampoco se porque no puedo modificar el fontsize*/
+  font-weight: 400;
+  font-size: 3rem;
   color: #F2F2F2;
 }
 .contacto-container .button-container {
   display: block;
+  text-align: center;
+}
+.contacto-container .button-container .btn-default {
+  background-color: #701F21;
+  color: #F2F2F2;
+  border-color: #701F21;
+}
+.contacto-container .button-container .btn-default:hover, .contacto-container .button-container .btn-default:focus, .contacto-container .button-container .btn-default:active {
+  background-color: #701F21;
+  color: #FFF;
+  border-color: #701F21;
+}
+.contacto-container .button-container .mb-3 {
+  text-align: left;
 }
 
 .footer-container {

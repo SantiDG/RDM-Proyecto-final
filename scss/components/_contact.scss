@@ -1,20 +1,41 @@
 
 .contacto-container {
     display: block;
-    text-align: center;
     padding: 4rem  0;
-    background-image: url(../../Images/Footer/fitz-roy.jpg);
-    /*No pude lograr que se muestre la imagen de fondo*/
-    background-color: slategray;
+    background-image: url(../Images/Productos/Tierra-del-fuego.png);
+    background-size: 100%;
+    background-position: top;
+    background-color: $negro-rdm;
 
     .titulo-contacto {
         padding: 0 0 2rem 0 ;
-        @include oswald-font (300, 10rem);
-        /*Tampoco se porque no puedo modificar el fontsize*/
-        color: $blanco-rdm;
+        text-align: center;
+
+        .contacto-h3 {
+            @include oswald-font (400, 3rem);
+            color: $blanco-rdm;
+        }
     }
 
     .button-container {
         display: block;
+        text-align: center;
+
+        .btn-default {
+            background-color: $rojo-rdm;
+            color:$blanco-rdm;
+            border-color: $rojo-rdm;
+    
+            &:hover, &:focus, &:active {
+                background-color: $rojo-rdm;
+                color:#FFF;
+                border-color: $rojo-rdm;
+            }
+        }
+
+        .mb-3 {
+            text-align:left;
+        }
     }
+
 }

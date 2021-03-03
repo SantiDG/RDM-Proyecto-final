@@ -7,7 +7,7 @@
     .titulo-valores {
         display: flex;
         justify-content: center;
-        padding: 1.5rem 0 0 0 ;
+        padding: 6rem 0 0 0 ;
         margin: 0;
 
         @include oswald-font (400, 2rem);
@@ -17,7 +17,7 @@
 
     .valores {
         display: flex;
-        padding: 2rem 0;
+        padding: 4rem 0 6rem 0;
         background-color: $negro-rdm;
 
         .valor {

@@ -35,6 +35,10 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
 
+
+    <!--git remote add origin https://github.com/SantiDG/sasas.git
+    git branch -m master
+    git push -u origin master-->
     <title>Roca de madera - Equipo para escalada deportiva</title>
 
 </head>
@@ -52,7 +56,7 @@
         <nav class="nav-container"> 
                 <div class="nav-table" >
                 <ul class="nav-list" >
-                    <li class="list-item" alt="Inicio" ><a class="nav-button" href="0">Inicio</a></li> 
+                    <li class="list-item" alt="Inicio" ><a class="nav-button" href="">Inicio</a></li> 
                     <li class="list-item" alt="Productos"><a class="nav-button" href="#productos">Productos</a></li> 
                     <li class="list-item" alt="Valores"><a class="nav-button" href="#valores">Valores</a></li> 
                     <li class="list-item" alt="Nosotros"><a class="nav-button" href="#nosotros">Nosotros</a></li> 
@@ -110,30 +114,37 @@
 
         <!--Productos-->
 
-        <section id="productos">
+        <section id="productos" class="productos-h2-c">
 
-            <h2 class="titulo-productos" >
+            <h2 class="productos-h2" >
                 Productos
             </h2>
 
         </section>
 
-        <section>
+        <section class="multi-titulo-c">
 
-            <h3 class="producto" >
-                Nombre producto
+            <h3 class="multi-titulo" >
+                Granito
             </h3>
 
-            <div>
+        </section>
 
-                <h4 class="variante" >
-                    Variante 1
+        
+        <section class="multi-container">
+
+            <div class="variante-container variante-1" >
+
+                <h4 class="variante-titulo h4-1" >
+                    Simétrica
                 </h4>
                 
-                <img src="" alt="">
+                <div class="img-container">
+                    <img class="img-variante" src="Images/Productos/asimetrica-final.png" alt="">
+                </div>
 
-                <div class="desc-1">
-                    <p class="texto-desc" >
+                <div class="variante-desc">
+                    <p class="texto-desc-1" >
                         Lorem ipsum dolor sit amet consectetur adipisicing elit.
                         Expedita architecto perspiciatis rerum sit voluptas et 
                         officiis cum est tempora quibusdam sint, nulla soluta 
@@ -141,28 +152,28 @@
                     </p>
                 </div>
 
-                <ul class="desc-info1" >
+                <ul class="variante-info" >
                     <li class="info" > <b>Regletas: </b> 10cm / 7cm / etc </li>
                     <li class="info" > <b>Romos: </b> Dos de 45 grados </li>
                     <li class="info" > <b>Otra info: </b> Lorem ipsum dolor </li>
                 </ul>
-                
-                <img src="Images/Productos/Variante 1" alt="">
-
+<!--
                 <button>Más Info</button>
-
+-->
             </div>
 
-            <div>
+            <div class="variante-container variante-2">
 
-                <h4 class="variante" >
-                    Variante 2
+                <h4 class="variante-titulo  h4-2" >
+                    Asimétrica
                 </h4>
                 
-                <img src="" alt="">
+                <div class="img-container">
+                    <img class="img-variante" src="Images/Productos/asimetrica-final.png" alt="">
+                </div>
 
-                <div class="desc-2">
-                    <p class="texto-desc" >
+                <div class="variante-desc">
+                    <p class="texto-desc-2" >
                         Lorem ipsum dolor sit amet consectetur adipisicing elit.
                         Expedita architecto perspiciatis rerum sit voluptas et 
                         officiis cum est tempora quibusdam sint, nulla soluta 
@@ -170,16 +181,14 @@
                     </p>
                 </div>
 
-                <ul>
-                    <li> <b>Regletas: </b> 10cm / 8cm / etc </li>
-                    <li> <b>Romos: </b> Tres de 45 grados </li>
-                    <li> <b>Otra info: </b> Lorem ipsum dolor </li>
+                <ul class="variante-info">
+                    <li class="info"> <b>Regletas: </b> 10cm / 8cm / etc </li>
+                    <li class="info"> <b>Romos: </b> Tres de 45 grados </li>
+                    <li class="info"> <b>Otra info: </b> Lorem ipsum dolor </li>
                 </ul>
-                
-                <img src="Images/Productos/Variante 2" alt="">
-
+<!--
                 <button>Más Info</button>
-
+-->
             </div>
 
         </section>
@@ -292,14 +301,16 @@
         <section class="contacto-container" id="contacto" >
 
             <section class="titulo-contacto">
-                <h3>
+
+                <h3 class="contacto-h3">
                     ¿Alguna pregunta?
                 </h3>
+
             </section>
 
             <section class="button-container">
 
-                <button type="button" class="btn btn-primary btn-lg" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="Contacto">Haz click aquí</button>
+                <button type="button" class="btn btn-default btn-lg" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="Contacto">Haz click aquí</button>
 
                 <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                     <div class="modal-dialog">
@@ -326,7 +337,7 @@
                             </div>
                             <div class="modal-footer">
                                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-                                <button type="button" class="btn btn-primary">Enviar</button>
+                                <button type="button" class="btn btn-default">Enviar</button>
                             </div>
                         </div>
                     </div>

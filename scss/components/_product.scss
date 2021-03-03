@@ -1,0 +1,93 @@
+
+.productos-h2-c {
+    display: block;
+    text-align: center;
+
+    .productos-h2 {
+        padding: 3rem 0 ;
+        margin: 0;
+
+        @include oswald-font (400, 3rem);
+        color: $negro-rdm;
+        background-color: $blanco-rdm;
+    }
+}
+
+.multi-titulo-c {
+    display: block;
+    text-align: center;
+
+
+    .multi-titulo {
+        padding: 1.5rem 0 ;
+        margin: 0;
+
+        @include oswald-font (400, 2.5rem);
+        color: $blanco-rdm;
+        background-color: $rojo-rdm;
+    }
+}
+
+.multi-container {
+    display: flex;
+
+    .variante-container {
+        display: flex;
+        flex-direction: column;
+        padding: 3rem 0 2rem 0 ;
+
+        .variante-titulo {
+            margin: 2rem 0;
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            @include oswald-font (300, 2.2rem);
+        }
+
+        .h4-1 {
+            color: $blanco-rdm;
+        }
+
+        .h4-2 {
+            color: $negro-rdm;
+        }
+
+        .img-container {
+
+            .img-variante {
+                max-width: 100%;
+                padding: 0 3rem;
+            }
+        }
+
+        .variante-desc {
+            display: flex;
+            padding: 0 5rem;
+            @include opensans-font (700, 1rem);
+        }
+
+        .texto-desc-1 {
+            color: $negro-rdm;
+            text-align: left;
+        }
+
+        .texto-desc-2 {
+            color: $blanco-rdm;
+            text-align: right;
+        }
+
+
+    }
+    .variante-1 {
+        background-image: url(../Images/Productos/fitz-roy-final.png);
+        background-color: $negro-rdm;
+        background-size: cover;
+    }
+
+    .variante-2 {
+        background-image: url(../Images/Productos/siete-lagos-final.png);
+        background-color: $blanco-rdm;
+        background-size: cover;
+    }
+
+}
