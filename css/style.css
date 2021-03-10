@@ -26,6 +26,75 @@
   }
 }
 /*Media Querys*/
+@media only screen and (min-width: 961px) {
+  .ham-nav {
+    display: none;
+  }
+}
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+  body {
+    font-size: 60%;
+  }
+
+  header .logo-container {
+    width: 0;
+  }
+  header .logo-container .logo {
+    display: none;
+    width: 0;
+  }
+  header .nav-container {
+    display: none;
+  }
+  header .nav-container .nav-table {
+    display: none;
+  }
+  header .redes-container {
+    display: none;
+  }
+  header .redes-container .redes-list {
+    display: none;
+  }
+  header .redes-container .redes-list .redes-item {
+    display: none;
+  }
+  header .redes-container .redes-list .redes-item a {
+    display: none;
+  }
+  header .redes-container .redes-list .redes-item a .redes-logo {
+    display: none;
+  }
+
+  .ham-container {
+    width: 100%;
+  }
+  .ham-container .ham-nav .navbar {
+    padding: 0;
+    background-color: #F2F2F2;
+  }
+  .ham-container .ham-nav .navbar .container-fluid {
+    padding: 0;
+  }
+  .ham-container .ham-nav .navbar .container-fluid .navbar-brand {
+    padding: 0;
+    margin: 0;
+  }
+  .ham-container .ham-nav .navbar .container-fluid .navbar-brand .logo {
+    padding: 1.5rem 0 1.5rem 1.5rem;
+  }
+  .ham-container .ham-nav .navbar .container-fluid .navbar-toggler {
+    margin-right: 1.5rem;
+  }
+  .ham-container .ham-nav .navbar .container-fluid .navbar-collapse .navbar-nav {
+    text-align: center;
+  }
+  .ham-container .ham-nav .navbar .container-fluid .navbar-collapse .navbar-nav .nav-item {
+    font-family: "Oswald", sans-serif;
+    font-weight: 300;
+    font-size: 1rem;
+    color: #221F1C;
+  }
+}
 /*Componentes*/
 /*Header*/
 header {
@@ -108,6 +177,7 @@ header {
   -webkit-transform: scale(1.2);
 }
 
+/* Ham Nav */
 .all-but-header {
   position: relative;
   top: 80px;

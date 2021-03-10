@@ -1,0 +1,94 @@
+
+
+@media only screen and (min-width:401px) and (max-width:960px) {
+
+    body {
+        font-size: 60%;
+    }
+
+    header {    
+
+        .logo-container {
+            width: 0;
+
+            .logo {
+                display: none;
+                width: 0;
+            }
+        }
+
+        .nav-container {
+            display: none;
+
+            .nav-table {
+                display: none;
+            }
+        
+        }
+
+        .redes-container {
+            display: none;
+
+            .redes-list {
+                display: none;
+
+                .redes-item {
+                    display: none;
+
+                    a {
+                        display: none;
+
+                        .redes-logo {
+                            display: none;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .ham-container {
+        width: 100%;
+
+        .ham-nav {
+
+            .navbar {
+                padding: 0;
+                background-color: $blanco-rdm;
+
+                .container-fluid {
+                    padding: 0;
+
+                    .navbar-brand {
+                        padding: 0;
+                        margin: 0;
+
+                        .logo {
+                            padding: 1.5rem 0 1.5rem 1.5rem;
+                        }
+                    }
+
+                    .navbar-toggler {
+                        margin-right: 1.5rem;
+
+                    }
+
+                    .navbar-collapse {
+
+                        .navbar-nav {
+                            text-align: center;
+
+                            .nav-item {
+                                @include oswald-font(300, 1rem);
+                                color: $negro-rdm;
+                            }
+                        }
+                    }
+                }
+            }
+        
+        }
+        
+    }
+}
+
