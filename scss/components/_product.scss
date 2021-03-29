@@ -34,10 +34,10 @@
     .variante-container {
         display: flex;
         flex-direction: column;
-        padding: 3rem 0 2rem 0 ;
+        padding: 2rem 0 2rem 0 ;
 
         .variante-titulo {
-            margin: 2rem 0;
+            margin: 1rem 0 2rem 0;
             display: flex;
             justify-content: center;
             text-align: center;
@@ -60,22 +60,39 @@
             }
         }
 
-        .variante-desc {
-            display: flex;
-            padding: 0 5rem;
-            @include opensans-font (700, 1rem);
-        }
+        .collapse-container {
+            text-align: center;
+            padding: 2rem 0 0 0;
 
-        .texto-desc-1 {
-            color: $negro-rdm;
-            text-align: left;
-        }
+            .btn {
 
-        .texto-desc-2 {
-            color: $blanco-rdm;
-            text-align: right;
-        }
+                width: 6rem;
 
+            }
+            .collapse {
+
+                .card, .card-body {
+
+                    .variante-desc {
+                        display: flex;
+                        padding: 0 5rem;
+                        @include opensans-font (700, 1rem);
+                    }
+            
+                    .texto-desc-1 {
+                        color: $negro-rdm;
+                        text-align: left;
+                    }
+            
+                    .texto-desc-2 {
+                        color: $blanco-rdm;
+                        text-align: right;
+                    }
+                }
+
+            }
+
+        }
 
     }
     .variante-1 {

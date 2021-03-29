@@ -120,24 +120,11 @@
     color: #221F1C;
   }
 
-  body .all-but-header .banner-container {
-    height: 25vw;
-  }
   body .all-but-header .banner-container .frase-banner {
     display: inline;
     font-family: "Oswald", sans-serif;
     font-weight: 500;
     font-size: 6vw;
-  }
-  body .all-but-header .productos-h2-c .productos-h2 {
-    font-family: "Oswald", sans-serif;
-    font-weight: 400;
-    font-size: 5.5vw;
-  }
-  body .all-but-header .multi-titulo-c .multi-titulo {
-    font-family: "Oswald", sans-serif;
-    font-weight: 400;
-    font-size: 4.5vw;
   }
   body .all-but-header .multi-container {
     display: flex;
@@ -146,7 +133,7 @@
   body .all-but-header .multi-container .variante-container .variante-titulo {
     font-family: "Oswald", sans-serif;
     font-weight: 300;
-    font-size: 4vw;
+    font-size: 3rem;
   }
   body .all-but-header .multi-container .variante-container .texto-desc-1 {
     color: #221F1C;
@@ -161,15 +148,11 @@
   }
   body .all-but-header .valores-container .titulo-valores {
     display: flex;
-    font-family: "Oswald", sans-serif;
-    font-weight: 400;
-    font-size: 4.5vw;
   }
   body .all-but-header .valores-container .valores {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    padding: 0 0 6rem 0;
   }
   body .all-but-header .valores-container .valores .valor {
     width: 40%;
@@ -180,22 +163,6 @@
   }
   body .all-but-header .nosotros-container {
     display: block;
-  }
-  body .all-but-header .nosotros-container .text-container .nosotros-text .h3-nosotros {
-    font-family: "Oswald", sans-serif;
-    font-weight: 500;
-    font-size: 4vw;
-  }
-  body .all-but-header .nosotros-container .text-container .nosotros-text .h5-nosotros {
-    padding: 1vw 0;
-    font-family: "Oswald", sans-serif;
-    font-weight: 400;
-    font-size: 3vw;
-  }
-  body .all-but-header .nosotros-container .text-container .nosotros-text .p-nosotros {
-    font-family: "Open Sans", sans-serif;
-    font-weight: 400;
-    font-size: 2vw;
   }
   body .all-but-header .footer-container {
     display: block;
@@ -325,24 +292,11 @@
     color: #221F1C;
   }
 
-  body .all-but-header .banner-container {
-    height: 50vw;
-  }
   body .all-but-header .banner-container .frase-banner {
     display: inline;
     font-family: "Oswald", sans-serif;
     font-weight: 500;
-    font-size: 10vw;
-  }
-  body .all-but-header .productos-h2-c .productos-h2 {
-    font-family: "Oswald", sans-serif;
-    font-weight: 400;
-    font-size: 2.5rem;
-  }
-  body .all-but-header .multi-titulo-c .multi-titulo {
-    font-family: "Oswald", sans-serif;
-    font-weight: 400;
-    font-size: 2rem;
+    font-size: 6vw;
   }
   body .all-but-header .multi-container {
     display: flex;
@@ -351,7 +305,7 @@
   body .all-but-header .multi-container .variante-container .variante-titulo {
     font-family: "Oswald", sans-serif;
     font-weight: 300;
-    font-size: 2rem;
+    font-size: 3rem;
   }
   body .all-but-header .multi-container .variante-container .texto-desc-1 {
     color: #221F1C;
@@ -363,47 +317,24 @@
   }
   body .all-but-header .valores-container {
     display: block;
-    background-color: #F2F2F2;
   }
   body .all-but-header .valores-container .titulo-valores {
     display: flex;
-    font-family: "Oswald", sans-serif;
-    font-weight: 400;
-    font-size: 2.5rem;
   }
   body .all-but-header .valores-container .valores {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    padding: 0;
-    margin: 0;
   }
   body .all-but-header .valores-container .valores .valor {
-    width: 70%;
-    margin: 0 3rem 4rem 3rem;
+    width: 40%;
+    margin: 2.5vh 2.5vw;
   }
   body .all-but-header .valores-container .valores .valor .img-valor {
-    max-width: 3rem;
+    max-width: 25%;
   }
   body .all-but-header .nosotros-container {
     display: block;
-  }
-  body .all-but-header .nosotros-container .text-container .nosotros-text .h3-nosotros {
-    font-family: "Oswald", sans-serif;
-    font-weight: 500;
-    font-size: 4vw;
-  }
-  body .all-but-header .nosotros-container .text-container .nosotros-text .h5-nosotros {
-    padding: 1vw 0;
-    font-family: "Oswald", sans-serif;
-    font-weight: 400;
-    font-size: 3vw;
-  }
-  body .all-but-header .nosotros-container .text-container .nosotros-text .p-nosotros {
-    font-family: "Open Sans", sans-serif;
-    font-weight: 400;
-    font-size: 2vw;
   }
   body .all-but-header .footer-container {
     display: block;
@@ -557,10 +488,7 @@ header {
   text-align: center;
   color: #F2F2F2;
   width: 100%;
-  height: 350px;
   align-items: center;
-  background-image: url(../Images/Inicio/banner.jpg);
-  background-size: cover;
 }
 .all-but-header .banner-container .frase-banner {
   position: absolute;
@@ -574,6 +502,9 @@ header {
   font-weight: 700;
   font-size: 4rem;
 }
+.all-but-header .banner-container .imagen-banner {
+  max-width: 100%;
+}
 
 .productos-h2-c {
   display: block;
@@ -584,7 +515,7 @@ header {
   margin: 0;
   font-family: "Oswald", sans-serif;
   font-weight: 400;
-  font-size: 3rem;
+  font-size: 3vw;
   color: #221F1C;
   background-color: #F2F2F2;
 }
@@ -598,7 +529,7 @@ header {
   margin: 0;
   font-family: "Oswald", sans-serif;
   font-weight: 400;
-  font-size: 2.5rem;
+  font-size: 2.5vw;
   color: #F2F2F2;
   background-color: #701F21;
 }
@@ -670,17 +601,17 @@ header {
 .valores-container .titulo-valores {
   display: flex;
   justify-content: center;
-  padding: 4rem 0 4rem 0;
+  padding: 4rem 0 0 0;
   margin: 0;
   font-family: "Oswald", sans-serif;
   font-weight: 400;
   font-size: 2rem;
-  color: #221F1C;
+  color: #F2F2F2;
   background-color: #F2F2F2;
 }
 .valores-container .valores {
   display: flex;
-  padding: 6rem 0 6rem 0;
+  padding: 4rem 0 6rem 0;
   background-color: #F2F2F2;
 }
 .valores-container .valores .valor {
@@ -707,10 +638,6 @@ header {
   font-weight: 400;
   font-size: 0.8rem;
   color: #F2F2F2;
-}
-
-.divisor {
-  height: 10vw;
 }
 
 .nosotros-container {
@@ -829,4 +756,4 @@ header {
   margin: 3rem;
 }
 
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.scss.map */

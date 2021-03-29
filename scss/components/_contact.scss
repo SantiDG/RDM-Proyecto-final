@@ -2,10 +2,14 @@
 .contacto-container {
     display: block;
     padding: 4rem  0;
-    background-image: url(../Images/Productos/Tierra-del-fuego.png);
     background-size: 100%;
     background-position: top;
-    background-color: $negro-rdm;
+
+    .bk-img {
+        position: fixed;
+        bottom: 0;
+        z-index: -70;
+    }
 
     .titulo-contacto {
         padding: 0 0 2rem 0 ;
@@ -13,9 +17,10 @@
 
         .contacto-h3 {
             @include oswald-font (400, 3rem);
-            color: $blanco-rdm;
+            color: $negro-rdm;
         }
     }
+
 
     .button-container {
         display: block;

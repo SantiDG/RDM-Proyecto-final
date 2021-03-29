@@ -34,8 +34,11 @@
     }
 
     .iso-container {
-        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+
         width: 50%;
+
 
         .iso {
             max-width: 8rem;

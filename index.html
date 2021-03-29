@@ -71,19 +71,19 @@
             <ul class="redes-list" >
                 <li class="redes-item" >
                     <a href="https://www.facebook.com/RocadeMadera" target="blank">
-                        <img class="redes-logo " src="Images/Header/facebook.svg" alt="Facebook">
+                        <img class="redes-logo " src="Images/Header/facebook.png" alt="Facebook">
                     </a>
                 </li>
                 
                 <li class="redes-item" >
                     <a href="https://www.instagram.com/roca_demadera/" target="blank">
-                        <img class="redes-logo" src="images/Header/instagram.svg" alt="Instagram">
+                        <img class="redes-logo" src="Images/Header/instagram.png" alt="Instagram">
                     </a>
                 </li>
                 
                 <li class="redes-item" >
                     <a href="https://twitter.com/?lang=es" target="blank" >
-                        <img class="redes-logo" src="images/Header/twitter.svg" alt="Twitter">
+                        <img class="redes-logo" src="Images/Header/whatsapp.png" alt="WhatsApp">
                     </a>
                 </li>
             </ul>
@@ -137,9 +137,6 @@
                 DISEÑANDO PARA ESCALADORES
             </h1>
 
-            <img class="imagen-banner" src="Images/Inicio/banner.jpg" alt="Multipresas alineadas con cuidado, 
-            listas para empaquetar y distribuir ">
-
         </section>
 
         <!--Productos-->
@@ -155,7 +152,7 @@
         <section class="multi-titulo-c">
 
             <h3 class="multi-titulo" >
-                Granito
+                Multipresas
             </h3>
 
         </section>
@@ -173,24 +170,34 @@
                     <img class="img-variante" src="Images/Productos/asimetrica-final.png" alt="">
                 </div>
 
-                <div class="variante-desc">
-                    <p class="texto-desc-1" >
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Expedita architecto perspiciatis rerum sit voluptas et 
-                        officiis cum est tempora quibusdam sint, nulla soluta 
-                        ducimus blanditiis voluptatem culpa voluptates.
+                <div class="collapse-container">
+                    <p>
+                        <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapse-v1" role="button" aria-expanded="false" aria-controls="collapse-v1">
+                            Más info
+                        </a>
                     </p>
+                    <div class="collapse" id="collapse-v1">
+                        <div class="card card-body">
+                            <div class="variante-desc">
+                                <p class="texto-desc-1" >
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    Expedita architecto perspiciatis rerum sit voluptas et 
+                                    officiis cum est tempora quibusdam sint, nulla soluta 
+                                    ducimus blanditiis voluptatem culpa voluptates.
+                                </p>
+                            </div>            
+                            <ul class="variante-info" >
+                                <li class="info" > <b>Regletas: </b> 10cm / 7cm / etc </li>
+                                <li class="info" > <b>Romos: </b> Dos de 45 grados </li>
+                                <li class="info" > <b>Otra info: </b> Lorem ipsum dolor </li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
 
-                <ul class="variante-info" >
-                    <li class="info" > <b>Regletas: </b> 10cm / 7cm / etc </li>
-                    <li class="info" > <b>Romos: </b> Dos de 45 grados </li>
-                    <li class="info" > <b>Otra info: </b> Lorem ipsum dolor </li>
-                </ul>
-<!--
-                <button>Más Info</button>
--->
             </div>
+
+            
 
             <div class="variante-container variante-2">
 
@@ -202,23 +209,32 @@
                     <img class="img-variante" src="Images/Productos/asimetrica-final.png" alt="">
                 </div>
 
-                <div class="variante-desc">
-                    <p class="texto-desc-2" >
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Expedita architecto perspiciatis rerum sit voluptas et 
-                        officiis cum est tempora quibusdam sint, nulla soluta 
-                        ducimus blanditiis voluptatem culpa voluptates.
-                    </p>
+                <div class="collapse-container">
+                    <p>
+                        <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapse-v2" role="button" aria-expanded="false" aria-controls="collapse-v2">
+                            Más info
+                        </a>
+                      </p>
+                      <div class="collapse" id="collapse-v2">
+                        <div class="card card-body">
+                            <div class="variante-desc">
+                                <p class="texto-desc-1" >
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    Expedita architecto perspiciatis rerum sit voluptas et 
+                                    officiis cum est tempora quibusdam sint, nulla soluta 
+                                    ducimus blanditiis voluptatem culpa voluptates.
+                                </p>
+                            </div>
+            
+                            <ul class="variante-info" >
+                                <li class="info" > <b>Regletas: </b> 10cm / 7cm / etc </li>
+                                <li class="info" > <b>Romos: </b> Dos de 45 grados </li>
+                                <li class="info" > <b>Otra info: </b> Lorem ipsum dolor </li>
+                            </ul>
+                        </div>
+                      </div>
                 </div>
 
-                <ul class="variante-info">
-                    <li class="info"> <b>Regletas: </b> 10cm / 8cm / etc </li>
-                    <li class="info"> <b>Romos: </b> Tres de 45 grados </li>
-                    <li class="info"> <b>Otra info: </b> Lorem ipsum dolor </li>
-                </ul>
-<!--
-                <button>Más Info</button>
--->
             </div>
 
         </section>
@@ -287,53 +303,57 @@
 
         <!--Nosotros-->
 
-        <section id="nosotros">
+        <div class="divisor"></div>
 
-            <section class="nosotros-container" >
+        <section class="nosotros-container" id="nosotros" >
 
-                <section class="img-container" >
+            <section class="img-container" >
 
-                    <img class="imagen-grupo" src="images/Nosotros/Group-Photo.jpg" alt="">
+                <img class="imagen-grupo" src="images/Nosotros/Group-Photo.jpg" alt="">
 
-                </section>
+            </section>
 
-                <section class="text-container" >
+            <section class="text-container" >
 
-                    <div class="nosotros-text" >
+                <div class="nosotros-text" >
 
-                        <h3 class="h3-nosotros" >
-                            Nosotros
-                        </h3>
+                    <h3 class="h3-nosotros" >
+                        Nosotros
+                    </h3>
 
-                        <h5 class="h5-nosotros">
-                            Un subtítulo
-                        </h5>
+                    <h5 class="h5-nosotros">
+                        Un subtítulo
+                    </h5>
 
-                        <p class="p-nosotros" >
-                            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                            Similique accusamus itaque esse neque consequuntur 
-                            cupiditate adipisci dolores? Repellat ut dolorum, 
-                            veniam officia beatae amet delectus harum reprehenderit eveniet,
-                            porro nostrum.
-                        </p>
+                    <p class="p-nosotros" >
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                        Similique accusamus itaque esse neque consequuntur 
+                        cupiditate adipisci dolores? Repellat ut dolorum, 
+                        veniam officia beatae amet delectus harum reprehenderit eveniet,
+                        porro nostrum.
+                    </p>
 
-                    </div>
-
-                </section>
+                </div>
 
             </section>
 
 
+
+
         </section>
 
-        <!--Contacto: Bootstrap y Java  -->  
+        <!--Contacto-->  
 
         <section class="contacto-container" id="contacto" >
+
+            <div>
+                <img class="bk-img" src="images/Footer/fitz-roy.jpg" alt="">
+            </div>
 
             <section class="titulo-contacto">
 
                 <h3 class="contacto-h3">
-                    ¿Alguna pregunta?
+                    Contactanos
                 </h3>
 
             </section>
@@ -407,6 +427,32 @@
                 <img class="iso" src="Images/Footer/ISO-RDM.jpg" alt="">
 
             </section>
+
+            <div class="redes-container-ft" >
+
+                <ul class="redes-list-ft" >
+                    <li class="redes-item-ft" >
+                        <a href="https://www.facebook.com/RocadeMadera" target="blank">
+                            <img class="redes-logo-ft " src="Images/Header/facebook-ft.png" alt="Facebook">
+                        </a>
+                    </li>
+                    
+                    <li class="redes-item-ft" >
+                        <a href="https://www.instagram.com/roca_demadera/" target="blank">
+                            <img class="redes-logo-ft" src="Images/Header/instagram-ft.png" alt="Instagram">
+                        </a>
+                    </li>
+                    
+                    <li class="redes-item-ft" >
+                        <a href="https://twitter.com/?lang=es" target="blank" >
+                            <img class="redes-logo-ft" src="Images/Header/whatsapp-ft.png" alt="WhatsApp">
+                        </a>
+                    </li>
+                </ul>
+    
+            </div>
+
+
 
         </footer>
 

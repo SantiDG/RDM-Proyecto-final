@@ -2,6 +2,10 @@
 
 @media only screen and (min-width:401px) and (max-width:960px) {
 
+    html {
+        font-size: 12px;
+    }
+
     body {
         font-size: 60%;
     }
@@ -79,7 +83,7 @@
                             text-align: center;
 
                             .nav-item {
-                                @include oswald-font(300, 1rem);
+                                @include oswald-font(300, 1.5rem);
                                 color: $negro-rdm;
                             }
                         }
@@ -90,5 +94,185 @@
         }
         
     }
-}
 
+        body {
+
+        .all-but-header {
+
+            .banner-container {
+                height: 25vw;
+
+                .frase-banner {
+                    display: inline;
+                    @include oswald-font (500, 6vw);
+                    
+                }
+            }    
+
+            .productos-h2-c {
+
+                .productos-h2 {
+                    @include oswald-font (400, 5.5vw);
+                }
+            }
+
+            .multi-titulo-c {
+
+                .multi-titulo {
+                    @include oswald-font (400, 4.5vw);
+                }
+            }
+
+            .multi-container {
+                display: flex;
+                flex-direction: column;
+
+                .variante-container {
+
+                    .variante-titulo {
+                        @include oswald-font (300, 4vw);
+                    }
+
+                    .texto-desc-1 {
+                        color: $negro-rdm;
+                        text-align: center;
+                    }
+            
+                    .texto-desc-2 {
+                        color: $blanco-rdm;
+                        text-align: center;
+                    }
+                }
+            }
+
+            .valores-container {
+                display: block;
+            
+                .titulo-valores {
+                    display: flex;
+                    @include oswald-font (400, 4.5vw);
+                }
+            
+                .valores {
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: center;
+                    padding: 0 0 6rem 0;
+            
+                    .valor {
+                        width: 40%;
+                        margin: 2.5vh 2.5vw ;
+            
+                        .img-valor {
+                            max-width: 25%;
+
+                        }
+                    }
+                }
+            }
+
+            .nosotros-container {
+                display: block;
+
+                .text-container {
+
+                    .nosotros-text {
+
+                        .h3-nosotros {
+                            @include oswald-font (500, 4vw);
+                        }
+
+                        .h5-nosotros {
+                            padding: 1vw 0 ;
+                            @include oswald-font (400, 3vw);
+                        }
+
+                        .p-nosotros {
+                            @include opensans-font (400, 2vw);
+                        }
+                    }
+                }
+            }
+
+            .footer-container {
+
+                display: block;
+                align-items: center;
+                text-align: center;
+
+                .noticias-container {
+                    width: 100%;
+                    align-items: center;
+
+                    .noticias-titulo {
+                        padding: 2rem 0;
+                        margin: 0;
+                    }
+
+                    .noticias-form {
+                        padding: 0;
+                    }
+
+                    .noticias-parrafo {
+                        width: 100%;
+                        padding: 2rem 5rem 1rem 5rem;
+                        text-align: center;
+                        margin: 0;
+                    }
+
+
+                }
+
+                .iso-container {
+                    display: flex;
+                    justify-content: center;
+                    width: 100%;
+                    text-align: center;
+
+                    .iso {
+                        margin: 1.5rem;
+                    }
+                }
+
+                .redes-container-ft {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    width: 100%;
+                    
+                    .redes-list-ft {
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        padding: 0;
+
+                
+                        .redes-item-ft {
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+
+                        
+                            a {
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+
+                            .redes-logo-ft {
+
+                                display: flex;
+                                z-index: 5;
+                                max-width: 2.5rem;
+                                margin: 0 1rem 0 1rem;
+                    
+                                }
+                            
+                            }
+                        }
+                    
+                    }
+                }
+            }
+        }
+    }
+}
