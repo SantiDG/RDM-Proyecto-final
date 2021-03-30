@@ -10,20 +10,21 @@
         padding: 4rem 0 4rem 0 ;
         margin: 0;
 
-        @include oswald-font (400, 2rem);
+        @include oswald-font (400, 2.5rem);
         color: $negro-rdm;
         background-color: $blanco-rdm;
     }
 
     .valores {
         display: flex;
-        padding: 6rem 0 6rem 0;
+        padding: 0 0 6rem 0;
         background-color: $blanco-rdm;
+
 
         .valor {
             width: 30%;
             background-color: $rojo-rdm;
-            border-radius: 3vw;
+            border-radius: 1rem;
             padding: 1rem;
             margin: 0 3rem;
             text-align: center;
