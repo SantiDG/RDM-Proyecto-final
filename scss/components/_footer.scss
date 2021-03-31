@@ -21,15 +21,20 @@
             padding:0 0 0 1.2rem;
             
             .noticias-input {
+                padding: 0.2rem 0 0.2rem 0.5rem;
                 width: 70%;
+                @include opensans-font (300, 0.8rem);
+                color: $negro-rdm;
             }
         }
 
         .noticias-parrafo {
             color: $blanco-rdm;
-            padding-left: 1.5rem ;
+            padding-left: 1.5rem;
             margin: 2rem 0;
             width: 70%;
+            @include opensans-font (400, 1rem);
+            color: $blanco-rdm;
         }
     }
 
@@ -46,4 +51,18 @@
 
         }
     }
+}
+
+.foot-note {
+
+    text-align: center;
+    align-items: center;
+    background-color: $blanco-rdm;
+    @include opensans-font (600, 0.7rem);
+    color: $negro-rdm;
+
+    .note {
+        padding: 3px 0 3px 0;
+    }
+
 }

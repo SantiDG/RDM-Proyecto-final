@@ -34,7 +34,7 @@
     .variante-container {
         display: flex;
         flex-direction: column;
-        padding: 2rem 0 2rem 0 ;
+        padding: 2rem 0 3rem 0 ;
 
         .variante-titulo {
             margin: 1rem 0 2rem 0;
@@ -84,15 +84,17 @@
 
                 .card {
                     display: flex;
+                    background-color: $blanco-rdm;
 
                     .texto-producto {
                         display: flex;
                         flex-direction: row;
+                        align-items: center;
 
                         .variante-desc {
-                            @include opensans-font (700, 1rem);
-                            padding: 2rem;
+                            @include opensans-font (600, 1rem);
                             width: 50%;
+                            padding: 0 0 0 1rem;
     
                             .texto-desc-1 {
                                 color: $negro-rdm;
@@ -110,18 +112,38 @@
 
                     .variante-info {
                         width: 50%;
-                        list-style: none;
                         text-align: left;
-                        align-items: center;
+                        list-style: none;
+                        display: flex;
+                        flex-direction: column;
+                        padding: 4rem 1rem 4rem 2rem ;
                         margin: 0;
-                        padding: 4rem 2rem 2rem 7rem;
+                        
 
-                        .info {
+                        .info-container {
+                            padding:0.5rem 0.5rem 0.5rem 1rem;
+                            margin: 0;
+                            border-left: 5px solid $rojo-rdm;
 
+                            .info {
+                            }
                         }
+
                     }
 
                     .btn-info {
+                        background-color: $blanco-rdm;
+                        color:$rojo-rdm;
+                        border: 1.5px solid $rojo-rdm;
+                        @include oswald-font (300, 1rem);
+        
+                
+                        &:hover, &:focus, &:active {
+                            background-color: $rojo-rdm;
+                            color:#FFF;
+                            border-color: $rojo-rdm;
+                            box-shadow:  -1px 1px 5px $blanco-rdm, 1px -1px 5px $blanco-rdm ;
+                        }
 
                         .modal {
 

@@ -10,6 +10,13 @@
         font-size: 60%;
     }
 
+    .anchor{
+        display: block;
+        height: 66.64px; 
+        margin-top: -66.64px; 
+        visibility: hidden;
+    }
+
     header {    
 
         .logo-container {
@@ -81,10 +88,12 @@
 
                         .navbar-nav {
                             text-align: center;
+                            
 
                             .nav-item {
                                 @include oswald-font(300, 2rem);
                                 color: $negro-rdm;
+                                border-top: 1px solid $gris-rdm;
                             }
                         }
                     }
@@ -219,13 +228,18 @@
 
                     .noticias-form {
                         padding: 0;
+
+                        .noticias-input {
+                            text-align: center;
+                        }
                     }
 
                     .noticias-parrafo {
                         width: 100%;
-                        padding: 2rem 5rem 1rem 5rem;
+                        padding: 1rem 5rem 1rem 5rem;
                         text-align: center;
                         margin: 0;
+                        font-size: 1rem;
                     }
 
 
@@ -243,6 +257,7 @@
                 }
 
                 .redes-container-ft {
+                    padding: 0 0 1rem 0;
                     display: flex;
                     align-items: center;
                     justify-content: center;

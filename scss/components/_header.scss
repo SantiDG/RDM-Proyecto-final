@@ -1,6 +1,8 @@
 
 /*Header*/
 
+
+
 header {
     display: flex;
     width: 100%;
@@ -8,6 +10,8 @@ header {
     position: fixed;
     z-index: 80;
     box-shadow: 0 5px 10px rgba(34, 31, 28, 0.2);
+    border-bottom: 1px solid $blanco-rdm;
+    
 
 }
 
