@@ -199,12 +199,13 @@ header {
                     }
 
                     .h5-nosotros {
-                        padding: 1vw 0 ;
+                        padding: 0.8rem 0 ;
                         @include oswald-font (400, 2rem);
                     }
 
                     .p-nosotros {
-                        @include opensans-font (400, 1.5rem);
+                        padding: 1rem 0 0 0;
+                        @include opensans-font (400, 1.4rem);
                     }
                 }
             }

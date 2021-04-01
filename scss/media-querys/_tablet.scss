@@ -200,11 +200,11 @@
 
                         .h5-nosotros {
                             padding: 1vw 0 ;
-                            @include oswald-font (400, 3vw);
+                            @include oswald-font (400, 3.5vw);
                         }
 
                         .p-nosotros {
-                            @include opensans-font (400, 2vw);
+                            @include opensans-font (400, 3vw);
                         }
                     }
                 }
