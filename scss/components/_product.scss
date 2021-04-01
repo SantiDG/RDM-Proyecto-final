@@ -60,6 +60,69 @@
             }
         }
 
+        .collapsing {
+
+            .card {
+                display: flex;
+                background-color: $blanco-rdm;
+
+                .texto-producto {
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+
+                    .variante-desc {
+                        @include opensans-font (600, 1rem);
+                        width: 50%;
+                        padding: 0 0 0 1rem;
+
+                        .texto-desc-1 {
+                            color: $negro-rdm;
+                            text-align: left;
+                        }
+                
+                        .texto-desc-2 {
+                            color: $negro-rdm;
+                            text-align: right;
+                        }
+                    }
+                }
+
+                .variante-info {
+                    width: 50%;
+                    text-align: left;
+                    list-style: none;
+                    display: flex;
+                    flex-direction: column;
+                    padding: 4rem 1rem 4rem 2rem ;
+                    margin: 0;
+                    
+
+                    .info-container {
+                        padding:0.5rem 0.5rem 0.5rem 1rem;
+                        margin: 0;
+                        border-left: 5px solid $rojo-rdm;
+
+                    }
+                }
+
+                .btn-info {
+                    background-color: $blanco-rdm;
+                    color:$rojo-rdm;
+                    border: 1.5px solid $rojo-rdm;
+                    @include oswald-font (300, 1rem);
+    
+            
+                    &:hover, &:focus, &:active {
+                        background-color: $rojo-rdm;
+                        color:#FFF;
+                        border-color: $rojo-rdm;
+                        box-shadow:  -1px 1px 5px $blanco-rdm, 1px -1px 5px $blanco-rdm ;
+                    }
+                }
+            }
+        }
+
         .collapse-container {
             text-align: center;
             padding: 2rem 0 0 0;
@@ -69,7 +132,7 @@
                 background-color: $rojo-rdm;
                 color:$blanco-rdm;
                 border-color: $rojo-rdm;
-                @include oswald-font (600, 1.5rem);
+                @include oswald-font (300, 1rem);
 
         
                 &:hover, &:focus, &:active {
@@ -80,6 +143,9 @@
                 }
 
             }
+
+            
+
             .collapse {
 
                 .card {

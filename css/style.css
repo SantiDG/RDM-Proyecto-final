@@ -691,6 +691,58 @@ header {
   max-width: 100%;
   padding: 0 3rem;
 }
+.multi-container .variante-container .collapsing .card {
+  display: flex;
+  background-color: #F2F2F2;
+}
+.multi-container .variante-container .collapsing .card .texto-producto {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.multi-container .variante-container .collapsing .card .texto-producto .variante-desc {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  font-size: 1rem;
+  width: 50%;
+  padding: 0 0 0 1rem;
+}
+.multi-container .variante-container .collapsing .card .texto-producto .variante-desc .texto-desc-1 {
+  color: #221F1C;
+  text-align: left;
+}
+.multi-container .variante-container .collapsing .card .texto-producto .variante-desc .texto-desc-2 {
+  color: #221F1C;
+  text-align: right;
+}
+.multi-container .variante-container .collapsing .card .variante-info {
+  width: 50%;
+  text-align: left;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  padding: 4rem 1rem 4rem 2rem;
+  margin: 0;
+}
+.multi-container .variante-container .collapsing .card .variante-info .info-container {
+  padding: 0.5rem 0.5rem 0.5rem 1rem;
+  margin: 0;
+  border-left: 5px solid #701F21;
+}
+.multi-container .variante-container .collapsing .card .btn-info {
+  background-color: #F2F2F2;
+  color: #701F21;
+  border: 1.5px solid #701F21;
+  font-family: "Oswald", sans-serif;
+  font-weight: 300;
+  font-size: 1rem;
+}
+.multi-container .variante-container .collapsing .card .btn-info:hover, .multi-container .variante-container .collapsing .card .btn-info:focus, .multi-container .variante-container .collapsing .card .btn-info:active {
+  background-color: #701F21;
+  color: #FFF;
+  border-color: #701F21;
+  box-shadow: -1px 1px 5px #F2F2F2, 1px -1px 5px #F2F2F2;
+}
 .multi-container .variante-container .collapse-container {
   text-align: center;
   padding: 2rem 0 0 0;
@@ -701,8 +753,8 @@ header {
   color: #F2F2F2;
   border-color: #701F21;
   font-family: "Oswald", sans-serif;
-  font-weight: 600;
-  font-size: 1.5rem;
+  font-weight: 300;
+  font-size: 1rem;
 }
 .multi-container .variante-container .collapse-container .btn-primary:hover, .multi-container .variante-container .collapse-container .btn-primary:focus, .multi-container .variante-container .collapse-container .btn-primary:active {
   background-color: #701F21;
@@ -922,7 +974,7 @@ header {
 }
 .footer-container .noticias-container .noticias-titulo {
   padding: 0 0 0 1.5rem;
-  margin: 1.5rem 0;
+  margin: 1.5rem 0 0 0;
 }
 .footer-container .noticias-container .noticias-titulo .h3-noticias {
   font-family: "Oswald", sans-serif;
@@ -933,7 +985,15 @@ header {
 .footer-container .noticias-container .noticias-form {
   padding: 0 0 0 1.2rem;
 }
+.footer-container .noticias-container .noticias-form .noticias-label {
+  color: #F2F2F2;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  color: #F2F2F2;
+}
 .footer-container .noticias-container .noticias-form .noticias-input {
+  margin: 0 1rem 0 0.5rem;
   padding: 0.2rem 0 0.2rem 0.5rem;
   width: 70%;
   font-family: "Open Sans", sans-serif;
@@ -941,13 +1001,28 @@ header {
   font-size: 0.8rem;
   color: #221F1C;
 }
+.footer-container .noticias-container .noticias-form .boton {
+  padding: 0.2rem 0.3rem 0.3rem 0.3rem;
+  border-radius: 3px;
+  background-color: #701F21;
+  color: #F2F2F2;
+  border: 1.5px solid #701F21;
+  font-family: "Oswald", sans-serif;
+  font-weight: 300;
+  font-size: 1rem;
+}
+.footer-container .noticias-container .noticias-form .boton:hover {
+  background-color: #F2F2F2;
+  color: #701F21;
+  border-color: #701F21;
+}
 .footer-container .noticias-container .noticias-parrafo {
   color: #F2F2F2;
   padding-left: 1.5rem;
-  margin: 2rem 0;
+  margin: 1rem 0;
   width: 70%;
   font-family: "Open Sans", sans-serif;
-  font-weight: 400;
+  font-weight: 300;
   font-size: 1rem;
   color: #F2F2F2;
 }
