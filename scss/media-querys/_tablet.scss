@@ -174,7 +174,10 @@
             
                         .img-valor {
                             max-width: 25%;
+                        }
 
+                        .desc-valor {
+                            @include opensans-font (400, 0.9rem);
                         }
                     }
                 }

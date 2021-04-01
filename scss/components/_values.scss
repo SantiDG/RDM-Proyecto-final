@@ -41,6 +41,7 @@
             }
 
             .desc-valor {
+                padding: 0 4vw;
                 @include opensans-font (400, 0.8rem);
                 color: $blanco-rdm;
             }
