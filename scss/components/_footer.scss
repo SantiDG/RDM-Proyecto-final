@@ -12,6 +12,7 @@
             margin: 1.5rem 0 0 0;
 
             .h3-noticias {
+                margin: 0;
                 @include oswald-font (300, 2rem);
                 color: $blanco-rdm;
             }
@@ -35,8 +36,9 @@
             }
 
             .boton {
-                padding: 0.2rem 0.3rem 0.3rem 0.3rem;
+                padding: 0.2rem 0.5rem 0.5rem 0.5rem;
                 border-radius: 3px;
+                letter-spacing: 1px;
                 background-color: $rojo-rdm;
                 color:$blanco-rdm;
                 border: 1.5px solid $rojo-rdm;

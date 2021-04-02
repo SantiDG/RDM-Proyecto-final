@@ -29,6 +29,8 @@
     .button-container {
         display: block;
         text-align: center;
+        @include oswald-font (300, 2rem);
+        color: $blanco-rdm;
 
         .btn-default {
             background-color: $rojo-rdm;

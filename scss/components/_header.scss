@@ -42,7 +42,6 @@ header {
         
         .list-item {
             display: inline;
-            text-align: center;
 
             .nav-button {
                 text-decoration: none;
@@ -66,12 +65,10 @@ header {
 .redes-container {
     display: flex;
     justify-content: flex-end;
-    text-align: center;
     width: 25%;
     
     .redes-list {
         display: flex;
-        justify-content: flex-end;
 
         .redes-item {
             display: flex;

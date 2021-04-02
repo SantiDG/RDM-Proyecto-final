@@ -11,18 +11,19 @@
     
 
     .img-container {
-        display: flex;
+        width: auto;
+        object-fit: cover;
 
         .imagen-grupo {
             max-width: 100%;
-            
+            object-fit: cover;
         }
     }
 
     .text-container {
         display: flex;
         align-items: center;
-        text-align: center;
+        text-align: left;
         background-color: $blanco-rdm;
 
         .nosotros-text {

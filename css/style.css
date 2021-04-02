@@ -212,6 +212,9 @@ html {
   body .all-but-header .nosotros-container {
     display: block;
   }
+  body .all-but-header .nosotros-container .text-container {
+    text-align: center;
+  }
   body .all-but-header .nosotros-container .text-container .nosotros-text .h3-nosotros {
     font-family: "Oswald", sans-serif;
     font-weight: 500;
@@ -439,6 +442,9 @@ html {
   body .all-but-header .nosotros-container {
     display: block;
   }
+  body .all-but-header .nosotros-container .text-container {
+    text-align: center;
+  }
   body .all-but-header .nosotros-container .text-container .nosotros-text .h3-nosotros {
     font-family: "Oswald", sans-serif;
     font-weight: 500;
@@ -566,7 +572,6 @@ header {
 }
 .nav-container .nav-list .list-item {
   display: inline;
-  text-align: center;
 }
 .nav-container .nav-list .list-item .nav-button {
   text-decoration: none;
@@ -587,12 +592,10 @@ header {
 .redes-container {
   display: flex;
   justify-content: flex-end;
-  text-align: center;
   width: 25%;
 }
 .redes-container .redes-list {
   display: flex;
-  justify-content: flex-end;
 }
 .redes-container .redes-list .redes-item {
   display: flex;
@@ -624,8 +627,6 @@ header {
   color: #F2F2F2;
   width: 100%;
   height: 350px;
-  align-items: center;
-  background-size: cover;
   background-color: rgba(34, 31, 28, 0.4);
   box-shadow: inset 0 15px 20px rgba(34, 31, 28, 0.4), inset 0 -15px 20px rgba(34, 31, 28, 0.4);
 }
@@ -643,7 +644,6 @@ header {
 }
 
 .productos-h2-c {
-  display: block;
   text-align: center;
 }
 .productos-h2-c .productos-h2 {
@@ -896,15 +896,17 @@ header {
   display: flex;
 }
 .nosotros-container .img-container {
-  display: flex;
+  width: auto;
+  object-fit: cover;
 }
 .nosotros-container .img-container .imagen-grupo {
   max-width: 100%;
+  object-fit: cover;
 }
 .nosotros-container .text-container {
   display: flex;
   align-items: center;
-  text-align: center;
+  text-align: left;
   background-color: #F2F2F2;
 }
 .nosotros-container .text-container .nosotros-text {
@@ -957,6 +959,10 @@ header {
 .contacto-container .button-container {
   display: block;
   text-align: center;
+  font-family: "Oswald", sans-serif;
+  font-weight: 300;
+  font-size: 2rem;
+  color: #F2F2F2;
 }
 .contacto-container .button-container .btn-default {
   background-color: #701F21;
@@ -984,6 +990,7 @@ header {
   margin: 1.5rem 0 0 0;
 }
 .footer-container .noticias-container .noticias-titulo .h3-noticias {
+  margin: 0;
   font-family: "Oswald", sans-serif;
   font-weight: 300;
   font-size: 2rem;
@@ -1009,8 +1016,9 @@ header {
   color: #221F1C;
 }
 .footer-container .noticias-container .noticias-form .boton {
-  padding: 0.2rem 0.3rem 0.3rem 0.3rem;
+  padding: 0.2rem 0.5rem 0.5rem 0.5rem;
   border-radius: 3px;
+  letter-spacing: 1px;
   background-color: #701F21;
   color: #F2F2F2;
   border: 1.5px solid #701F21;
